@@ -9,7 +9,6 @@
         </record>
         <record model="openacademy.course" id="course1">
             <field name="name">Course 1</field>
-            </field>
         </record>
         <record model="openacademy.course" id="course2">
             <field name="name">Course 2</field>
