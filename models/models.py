@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import logging
 from datetime import timedelta
 from odoo import models, fields, api, exceptions
@@ -64,7 +63,6 @@ class Session(models.Model):
     def _get_attendees_count(self):
         for r in self:
             r.attendees_count = len(r.attendee_ids)
-
 
     @api.depends('start_date', 'duration')
     def _get_end_date(self):

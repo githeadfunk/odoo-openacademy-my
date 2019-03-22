@@ -186,10 +186,11 @@
         <field name="description">Course 2's description 
         </field>
     </record>
-
+    
     <record model="openacademy.session" id="session0">
         <field name="name">session</field>
         <field name="course_id" ref="course0"></field>
         <field name="active" eval="True"></field>
     </record>
+
 </odoo>
